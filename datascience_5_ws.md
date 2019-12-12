@@ -90,21 +90,48 @@ while for other methods this is an [active area of research](https://pubs.acs.or
 
 ### Engineering
 
-Machine learning may jump to mind first when considering "data science," but far more happens behind the scenes when
-turning data into insight. Data science is largely a programming-based exercise, and with that comes all of the
+Machine learning and statistics may be top of mind for "data science," but far more happens behind the scenes when
+turning data into insights. Data science is largely a programming-based exercise, and with that comes all of the
 challenges of software development, with the additional challenges of data management, and increasingly the challenges
-of "systems engineering," as the scale of data and methods continue to grow. 
+of "systems engineering" as the scale of data and methods continue to grow. 
 
-<center><img src="https://i.imgur.com/jcbBJOf.png" width=50% /></center>
+<img src="https://i.imgur.com/jcbBJOf.png" width=40% />
 
-sldkfj
-
-
-
-
+Data science is in many ways a tool-oriented discipline, whether evaluating which type of database to use
+in (e.g. MySql or MongoDB?), how to coordinate code and analyses across teams (GitHub or GitLab?), the programming
+language of choice (R or Python?), or how to combine data, code, and visualizations (Jupyter Notebooks or RMarkdown?).
 
 
+### Ethics, Equity, and Inclusion
 
+With the growth of powerful methods and massive datasets, ethical considerations are an
+[increasing](https://sdsi.stanford.edu/about/ethics-and-data-science) focus of data
+science. The racially-biased facial recognition example above is one example (particularly given the potential use
+of such systems by governments or others in power). Datasets containing personal information abound, despite regulations
+like FERPA, HIPPA, GDPR, and others. 
+
+Methods of data science make it easier than ever to deceive: "lies, damn lies, statistics, and machine learning." 
+Deep learning in particular makes it easier than ever to [generate](https://en.wikipedia.org/wiki/Deepfake) 
+realistic looking audio, images, and video, based on sample data. Some methods in data science are also resource-intensive. 
+A recent [paper](https://arxiv.org/abs/1906.02243) analyzed the carbon footprint of developing a
+natural-language processing application:
+
+
+> The process can emit more than 626,000 pounds of carbon dioxide equivalent--nearly five times the lifetime emissions of the average
+> American car (and that includes manufacture of the car itself). 
+
+(Note, however, that this is for the development
+(training) of the method; application of the trained result is quite efficient.)
+
+With the huge diversity of skills and knowledge encompassed by "data science," teamwork is a strong value in the
+community. Organizations such as [R-Ladies](https://rladies.org/), [PyLadies](https://www.pyladies.com/), and
+[Code2040](http://www.code2040.org/) seek to reduce gender and racial gaps in data/computer science, and as mentioned
+above data science recognizes the unique contributions of engineers, statisticians, software developers, and domain
+experts. 
+
+Finally, data scientists are often fervent open-source advocades, and the majority of data science software are
+open-source (even many of those developed at for-profit companies, such as Tensorflow (Google) and RStudio (RStudio)), enabling free access to 
+data science tools. 
 
 
 
