@@ -53,7 +53,7 @@ gathered from a larger population. Approaches here (usually classified as machin
 evaluate their methods rigorously, but frequently do so in different ways. Confidence intervals and p-values are the order
 of the day in statistics, whereas prediction performance on test data is primary in supervised machine learning. 
 These aren't exclusive by any means, particularly as both fields continue to evolve. But it does
-align with the "work with the data available, as bad as it may be" focus of CS. 
+align with the "work with the data available, as bad or opaque as it may be" focus of CS. 
 
 By contrast, I asked our Statistics department Chair, Lisa Ganio, for her thoughts on "data science." Her top-5 points
 (paraphrased) illustrate a different philosophy:
@@ -71,7 +71,42 @@ by summary statistics or more sophisticated methods.
 4. Having data in hand is not enough to know how to "analyze" it. The sampling scheme should effect how we analyze data.
 
 5. Sampling variation matters--if we do the work again, we’ll get a different answer. It's important to distingish 
-sampling variation from inherent processes. 
+sampling variation from variation due to inherent processes. 
+
+Here the focus on the sampling process--the data generation method--is front-and-center. Poor results in machine
+learning often result precisely from working with data not representative for the task. Lack or bias in data is
+well-known in machine learning, where methods like data augmentation and regularization try to alleviate these problems. 
+Still, "found" datasets are common in data science and perhaps too often trusted, resulting in issues such as
+[racial biases in facial recognition
+systems](https://www.wired.com/story/best-algorithms-struggle-recognize-black-faces-equally/). While no longer as [trendy](https://trends.google.com/trends/explore?date=all&geo=US&q=%22data%20mining%22,%22machine%20learning%22)
+as machine learning, "data mining" may still be a useful term.
+
+On the other hand, many "less-statistical" methods have been designed to work specifically with such found, messy, or complex data, 
+and have provided undeniable value despite questionable rigor. Some methods lend themselves well to more statistical
+evaluation (e.g. [bootstrap-based confidence
+intervals](https://machinelearningmastery.com/calculate-bootstrap-confidence-intervals-machine-learning-results-python/) for decision trees), 
+while for other methods this is an [active area of research](https://pubs.acs.org/doi/10.1021/acs.jcim.8b00542). 
+
+
+### Engineering
+
+Machine learning may jump to mind first when considering "data science," but far more happens behind the scenes when
+turning data into insight. Data science is largely a programming-based exercise, and with that comes all of the
+challenges of software development, with the additional challenges of data management, and increasingly the challenges
+of "systems engineering," as the scale of data and methods continue to grow. 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Q: What&#39;s the difference between data science and
+statistics?<br><br>A: <a href="https://t.co/eVMmeLVVUz">pic.twitter.com/eVMmeLVVUz</a></p>&mdash; Joel Grus 👼👼👼
+(@joelgrus) <a href="https://twitter.com/joelgrus/status/1118907318547009536?ref_src=twsrc%5Etfw">April 18,
+2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+
+
+
+
 
 
 
