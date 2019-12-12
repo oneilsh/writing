@@ -95,12 +95,9 @@ turning data into insight. Data science is largely a programming-based exercise,
 challenges of software development, with the additional challenges of data management, and increasingly the challenges
 of "systems engineering," as the scale of data and methods continue to grow. 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Q: What&#39;s the difference between data science and
-statistics?<br><br>A: <a href="https://t.co/eVMmeLVVUz">pic.twitter.com/eVMmeLVVUz</a></p>&mdash; Joel Grus 👼👼👼
-(@joelgrus) <a href="https://twitter.com/joelgrus/status/1118907318547009536?ref_src=twsrc%5Etfw">April 18,
-2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<img src="https://i.imgur.com/jcbBJOf.png" width=50% align=center/>
 
-
+sldkfj
 
 
 
