@@ -95,7 +95,7 @@ turning data into insight. Data science is largely a programming-based exercise,
 challenges of software development, with the additional challenges of data management, and increasingly the challenges
 of "systems engineering," as the scale of data and methods continue to grow. 
 
-<img src="https://i.imgur.com/jcbBJOf.png" width=50% align=center/>
+<center><img src="https://i.imgur.com/jcbBJOf.png" width=50% /></center>
 
 sldkfj
 
